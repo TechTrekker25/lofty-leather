@@ -18,7 +18,7 @@ const Home = () => {
         className="absolute top-0 mt-12 text-center"
       >
         <p>"Happy Birthday"</p>
-        <p>Vanshika</p>
+        <p>Sumi</p>
       </motion.div>
       {/* Mobile */}
       <Link
@@ -53,7 +53,7 @@ const Home = () => {
       </Link>
       <Marquee
         transition={{ ...transition }}
-        message="Happy Birthday Babe"
+        message="Happy Birthday Sumi"
         small={false}
       />
 
@@ -64,7 +64,7 @@ const Home = () => {
         className="absolute bottom-0 mb-12 text-center"
       >
         <p>{formatAmPm(new Date())}</p>
-        <p>06.09.2003</p>
+        <p>26.10.2023</p>
       </motion.div>
     </main>
   );
