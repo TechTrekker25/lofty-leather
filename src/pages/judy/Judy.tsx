@@ -43,7 +43,7 @@ const Judy = () => {
       >
         <Marquee
           transition={{ ...transition }}
-          message="Vanshika."
+          message="Sumi."
           small={true}
         />
       </motion.div>
